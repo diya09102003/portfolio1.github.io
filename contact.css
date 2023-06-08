@@ -1,0 +1,87 @@
+body{
+    background-image: url(background.webp);
+    margin:0;
+    display:block;
+}
+nav{
+    background-color: rgba(7, 47, 53, 0.654);
+    padding:20px;
+}
+.image{
+    clip-path:circle();
+    
+}
+nav a{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align:right;
+    text-decoration: none;
+    padding: 50px;
+}
+a:hover{
+    color: rgb(255, 115, 0);
+}
+h1{
+    color:black;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top:50px;
+}
+.diya{
+    color:rgba(0, 0, 0, 0.616);
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-bottom:20px;
+}
+.form{
+    background-color:rgba(7, 47, 53, 0.654);
+    background-size: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding:35px;
+    box-sizing: border-box;
+}
+.contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.616);
+
+    
+}
+.name{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width:500px;
+    padding:20px;
+}
+input[type="email"]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width:500px;
+    padding:20px;
+}
+.message{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        width:500px;
+        height:200px;
+        padding:20px;
+}
+button{
+    color:rgba(0, 0, 0, 0.616);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:rgb(11, 184, 197);
+    border:none;
+    border-radius: 5px;
+    padding:10px 25px;
+    margin:0px 200px ;
+
+}
+button:hover{
+    background-color:  rgba(7, 47, 53, 0.654);
+}

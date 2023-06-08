@@ -1,0 +1,71 @@
+body{
+    background-image: url(background.webp);
+    margin:0;
+    display:block;
+}
+nav{
+    background-color: rgba(7, 47, 53, 0.654);
+    padding:20px;
+    display: block;
+}
+.image{
+    clip-path:circle();
+}
+nav a{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align:right;
+    text-decoration: none;
+    padding: 50px;
+}
+a:hover{
+    color: rgb(255, 115, 0);
+}
+
+h1{
+    color: rgb(0, 20, 27);
+    font-size:60px ;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.intro{
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 10px;    
+}
+.bio{ 
+    font-size: 35px;
+    color: rgba(10, 2, 49, 0.761);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.college,.branch{
+    color: rgba(10, 2, 49, 0.761);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.button{
+    background: rgb(0, 102, 127);
+    color:black;
+    font-weight: 600 ;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 30px;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-left: 550px;
+}
+.button:hover{
+    padding:18px 28px;
+}
+h2{font-size: 21px;
+    color: rgb(7, 7, 7);
+
+}
